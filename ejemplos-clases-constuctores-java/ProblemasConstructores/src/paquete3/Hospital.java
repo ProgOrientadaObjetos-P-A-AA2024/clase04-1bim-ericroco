@@ -64,6 +64,11 @@ public class Hospital {
                 ciudad
                 ,obtenerNumeroDoctores(),obtenerNumeroEnfermeros());
         return cadena;
+        /*
+        Se puede hacer eso ya que en el etodo obtenerCiudad() retorna la
+        variable llamada ciudad, entonces no hay mayor diferencia si llamamos
+        al metodo para que haga el proceso o solamente el resultado del proceso.
+        */
     }
 
 }
