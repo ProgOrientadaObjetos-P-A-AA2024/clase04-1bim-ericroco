@@ -61,7 +61,7 @@ public class Hospital {
                 + "Numero de Doctores: %d\n"
                 + "Numero de Enfermeros: %d\n"
                 , obtenerNombre(),
-                obtenerCiudad()
+                ciudad
                 ,obtenerNumeroDoctores(),obtenerNumeroEnfermeros());
         return cadena;
     }
